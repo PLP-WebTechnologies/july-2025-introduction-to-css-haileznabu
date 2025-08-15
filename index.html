@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics & Box Model Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Welcome to PLP CSS Basics</h1>
+        <nav class="navigation">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section id="about" class="content-section">
+            <h2>About This Demo</h2>
+            <p class="intro-text">
+                This page demonstrates various CSS styling techniques and layout principles.
+            </p>
+            
+            <div class="box-model-demo">
+                <div class="demo-box content-box">Content</div>
+                <div class="demo-box padding-box">Content + Padding</div>
+                <div class="demo-box border-box">Content + Padding + Border</div>
+                <div class="demo-box margin-box">Content + Padding + Border + Margin</div>
+            </div>
+        </section>
+
+        <section id="services" class="content-section">
+            <h2>CSS Properties in Action</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Typography</h3>
+                    <p>Different font sizes, colors, and weights will create visual hierarchy and improve readability.</p>
+                    <button class="card-button">Learn More</button>
+                </div>
+                
+                <div class="card">
+                    <h3>Colors & Backgrounds</h3>
+                    <p>Strategic use of colors and backgrounds will help to organize content and guide user attention.</p>
+                    <button class="card-button">Explore</button>
+                </div>
+                
+                <div class="card highlighted-card">
+                    <h3>Layout & Spacing</h3>
+                    <p>Proper spacing using margin and padding creates clean, professional layouts that are easy to scan.</p>
+                    <button class="card-button primary-button">Get Started</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2>Contact Information</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> haileznabu93@gmail.com</p>
+                <p><strong>Phone:</strong> +2519-14-19-13-93</p>
+                <p><strong>Address:</strong> Ethiopia, Mekelle</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2024 CSS Basics. Created for educational.</p>
+    </footer>
+</body>
+</html>
